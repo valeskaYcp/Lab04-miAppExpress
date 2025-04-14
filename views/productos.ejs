@@ -1,0 +1,9 @@
+<!-- views/productos.ejs -->
+<div class="productos-lista">
+  <h2 class="text-success">Lista de Productos</h2>
+  <ul class="list-group mt-3">
+    <% productos.forEach(producto => { %>
+      <li class="list-group-item"><%= producto %></li>
+    <% }) %>
+  </ul>
+</div>
